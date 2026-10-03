@@ -1,28 +1,31 @@
-# NEXT_COMMAND — R13 有界结构尝试完成，无自动重试
+# NEXT_COMMAND — R14 有界核心尝试完成，无自动重试
 
-当前 R13_COMPLETE / ONE_BOUNDED_CORE_ATTEMPT / LIBRARY_COHERENCE_LEMMA_REFUTED / FINITE_AMBIGUITY_ATTAINMENT_UNRESOLVED / R12_PRESERVED / NO_NEW_ATTAINMENT_MAIN_THEOREM / NO_NEW_MANUSCRIPT。
+当前 R14_COMPLETE / CONDITIONAL_COUNTING_PROVED / FULL_FIBRE_BRIDGE_REFUTED / FINITE_AMBIGUITY_ATTAINMENT_UNRESOLVED / M2_UNRESOLVED / NO_NEW_MAIN_RESULT / R12_PRESERVED / NO_NEW_MANUSCRIPT。
 
-## 已完成与关闭边界
+## 完成与未完成边界
 
-最多两个候选、只推进一个，实际完成核心证明尝试。有限尾部安全域池为直接有限图充分条件，淘汰；有限歧义零熵安全程序库的一致实现加强引理被完整反例否定，具有所有固定 periods、所有 Borel 反馈量词。同一模型有显式零率分割，所以没有反驳一般有限歧义取到命题，更没有排除所有分割。
+R14 已允许反馈离开指定库，完成安全续接的精确关系、真实名字的候选轨迹编码及强附加条件下的取到证明。新模型对所有 periods、所有安全反馈否定完整候选集低复杂度桥梁，但模型本身有零率分割，不能反驳 FA。继续处理过极小库删减及旧 R06 优先级反例，不将旧构造计作新增。
 
-一般目标仍未解决，剩余接口是离开证据库后的安全续接与同一固定分割、全部初值的真实名字增长。本次尝试关闭，不自动继续该接口、不换候选、不安排重复筛查。R12 非取到核心和独立专业短文研究稿保留，没有新稿，不将辅助断点累计为结构主贡献。
+原 FA，包括 M=2，仍未解决；没有满足目标全部假设的非取到反例，也没有一般取到定理。准确未解决接口是状态相关候选删减/安全续接如何控制同一固定分割、全部初值的实际名字；报告中的次线性新增条件只是充分桥梁，并非原命题的必要条件。
 
-## 后续仅在有具体新授权时恢复
+本次尝试关闭，无自动 R15、候选筛选或重复审稿。没有升级稿，不提高期刊判断。R12 保留当前阶段稿；本轮辅助结论不足以增加其主贡献分量。
 
-先核最新 main 与适用指令，全文读取 CURRENT.md、research/R13_STATUS.md、NEXT_COMMAND.md。采用后续实质新版，不重复已完成项。按 R13_STATUS 的持久身份恢复并全文读取报告：
+## 仅在新的具体授权下恢复
+
+先核最新 main 和适用指令，全文读取 CURRENT.md、research/R14_STATUS.md、NEXT_COMMAND.md；采用后续实质新版，不重复完成项。按实际身份恢复并全文读取：
 
 | 文件 | 版本／字节 | SHA-256 |
 | --- | --- | --- |
-| P3_R13_Research_Report.md | 0／33,686 | 6ad389cd36ab4cf23315d05816ec72cf51d63c223894b0b6eb9074d162d327de |
-| P3_R13_Source_Readings.zip | 0／449,567 | 181361e2f0ac68c0807cad4dfebcf2456014d406ebe9def35e5738e0747291cd |
+| P3_R14_Research_Report.md | 0／35,863 | c9eafb33e77dd179823e541ce6d1c327725b1f1a1e2fd74ffaeff37cbe3db41e |
 
-原文包按依赖读 manifest 及完整相关原文，未包含的 SM 二进制不能从摘要重建。必要时按 R12_STATUS 恢复 R12 完整报告、TeX 和实际保存的八页 PDF，严守 version 0 与保存后 PDF 哈希；原稿和各轮原文件保留。
+报告：libfile_0f5825873c7481918603e8ca6e3bfe5c / file_0000000090c881fbb44ce4fff3f67baf，保存路径 /论文提升四大级别/。
 
-报告中的有限歧义命题、加强引理、附加条件版本与反例的真实结论必须区分；公开状态不代替完整证明。当前没有外部数学异议，也没有必须用户新增补找的文献。
+按实际证明依赖回读 R13 完整报告、原文包及 R12 主构造/有限输入字典障碍。R13 恢复身份见 R13_STATUS；R12 以 R12_STATUS 的实际保存八页 PDF 为准，不能混用编译 payload。原稿及各轮原文件保留；资料缺失明确说明，不从公开状态重建证明。
+
+严守区分：FA 原命题、完整候选集增长、指定库一致实现、附加条件取到、实际分割名字以及重叠 cover 最小子覆盖。R14 已有完整计数与反例不得重新包装为新一轮突破；R06 旧优先级失败不排除全部选择。没有新的必须用户补找的原文。
 
 ## 持续约束
 
-长期 Annals / Inventiones / JAMS / Acta 目标保留；更高定位具体缺自然模型中的取到/非取到结构与统一实际名字控制，但该诊断不产生自动寻题任务。R12 可作为独立专业短文，不等于达到一区 Top 或保证录用。
+长期 Annals / Inventiones / JAMS / Acta 目标保留，不承诺成功，不以轮次、报告篇幅或稿件生成代替数学分量。只有有实质新主贡献且证据支持时才改稿，不因辅助引理堆积声称档次提高。
 
-A_STOPPED / B_UNRESOLVED / DEPTH_MECHANISM_PAUSED / COVER_ADDRESS_VP_REJECTED 保留。只研究 P3，不读改 P4/P6，不安排多代理，不购买、登录、投稿或对外联系。完整未发表成果非公开保存；GitHub 仅必要状态与恢复索引。有实质记录才提交，无变化不制造报告或提交。
+A_STOPPED / B_UNRESOLVED / DEPTH_MECHANISM_PAUSED / COVER_ADDRESS_VP_REJECTED 保留。只研究 P3，不读改 P4/P6，不安排多代理，不购买、登录、投稿或对外联系。完整未发表成果非公开保存；GitHub 仅必要状态和恢复索引。有实质变化才记录和提交，无变化不制造重复报告。
