@@ -1,33 +1,28 @@
-# NEXT_COMMAND — R12 已完成，无自动重复任务
+# NEXT_COMMAND — R13 有界结构尝试完成，无自动重试
 
-当前 R12_COMPLETE / MATHEMATICAL_AUDIT_PASS / INDEPENDENT_NOTE_CORE_SUPPORTED / REVISED_RESEARCH_MANUSCRIPT_READY / NO_KNOWN_MATHEMATICAL_BLOCKER / JOURNAL_PACKAGE_NOT_PREPARED / GLOBAL_PRIORITY_NOT_CERTIFIED。
+当前 R13_COMPLETE / ONE_BOUNDED_CORE_ATTEMPT / LIBRARY_COHERENCE_LEMMA_REFUTED / FINITE_AMBIGUITY_ATTAINMENT_UNRESOLVED / R12_PRESERVED / NO_NEW_ATTAINMENT_MAIN_THEOREM / NO_NEW_MANUSCRIPT。
 
-## 已完成及裁决
+## 已完成与关闭边界
 
-R11 阶段稿的全部定理和证明已逐行审查，必要修正完成；直接近邻指定原文版本已逐项对照。核心成立，支持独立专业短文；R12 修订研究稿八页，编译和全部页面检查通过。没有新结构主定理，不认定一区 Top 或四大，不保证录用。
+最多两个候选、只推进一个，实际完成核心证明尝试。有限尾部安全域池为直接有限图充分条件，淘汰；有限歧义零熵安全程序库的一致实现加强引理被完整反例否定，具有所有固定 periods、所有 Borel 反馈量词。同一模型有显式零率分割，所以没有反驳一般有限歧义取到命题，更没有排除所有分割。
 
-本轮无未解决的具体数学断点，无必须由用户新增补找的原文。阶段主线保留；不自动 R13，不再次重复筛题或优先权扫描。
+一般目标仍未解决，剩余接口是离开证据库后的安全续接与同一固定分割、全部初值的真实名字增长。本次尝试关闭，不自动继续该接口、不换候选、不安排重复筛查。R12 非取到核心和独立专业短文研究稿保留，没有新稿，不将辅助断点累计为结构主贡献。
 
-## 后续如有具体授权，先恢复
+## 后续仅在有具体新授权时恢复
 
-先核最新 main 与适用指令，全文读 CURRENT.md、research/R12_STATUS.md、NEXT_COMMAND.md。已有后续实质成果采用最新版，不重复完成项。
+先核最新 main 与适用指令，全文读取 CURRENT.md、research/R13_STATUS.md、NEXT_COMMAND.md。采用后续实质新版，不重复已完成项。按 R13_STATUS 的持久身份恢复并全文读取报告：
 
-实际恢复并全文读取下列版本；持久身份在 R12_STATUS：
-
-| 文件 | 版本／实际恢复字节 | SHA-256 |
+| 文件 | 版本／字节 | SHA-256 |
 | --- | --- | --- |
-| P3_R12_Research_Report.md | 0／35,939 | 931efd2eb25617a6e5764fce4090dd03ff48e2f55eeeefddee1654132996255d |
-| P3_R12_Nonattainment.tex | 0／27,254 | 3a70b7b5e3ebdfc89e7edd0bb5398d08f63bf185eb0cfda1595d2fe66823d470 |
-| P3_R12_Nonattainment.pdf | 0／288,210／8 页 | 54f5dd7cc1ba2c12ee7b13c7978fb3bb1eb7eb5e72f7afad8ff16aabb97ca5f4 |
+| P3_R13_Research_Report.md | 0／33,686 | 6ad389cd36ab4cf23315d05816ec72cf51d63c223894b0b6eb9074d162d327de |
+| P3_R13_Source_Readings.zip | 0／449,567 | 181361e2f0ac68c0807cad4dfebcf2456014d406ebe9def35e5738e0747291cd |
 
-PDF 是已实际下载核验的加签保存版本；R12_STATUS 另列编译 payload 哈希，不混用。原稿及 R11 保留；按具体依赖回查，资料缺失说明，不从公开状态重建证明。
+原文包按依赖读 manifest 及完整相关原文，未包含的 SM 二进制不能从摘要重建。必要时按 R12_STATUS 恢复 R12 完整报告、TeX 和实际保存的八页 PDF，严守 version 0 与保存后 PDF 哈希；原稿和各轮原文件保留。
 
-## 明确的完成边界
+报告中的有限歧义命题、加强引理、附加条件版本与反例的真实结论必须区分；公开状态不代替完整证明。当前没有外部数学异议，也没有必须用户新增补找的文献。
 
-核心区分的是有限永久程序与有限块 generator；不能包装成一般有限记忆或通信不可能性。covers、finite input dictionary 与 scale sharpness 都是原机制后果。已知 infimum/comparison 不作为新主轴；global priority 未认证不等于数学审查未完成。
+## 持续约束
 
-未来收到具体外部数学异议时，只定位该异议所指命题、假设和证明段落；当前没有一份待处理的异议，也不提前制造下一轮审查。特定期刊投稿包不在本轮范围，尚未准备或提交。
+长期 Annals / Inventiones / JAMS / Acta 目标保留；更高定位具体缺自然模型中的取到/非取到结构与统一实际名字控制，但该诊断不产生自动寻题任务。R12 可作为独立专业短文，不等于达到一区 Top 或保证录用。
 
-更高定位仍缺能解释广泛自然模型中 attainment/nonattainment 分界的结构性贡献；这只是分量诊断，不安排自动寻找方向。A 停止、B unresolved、depth mechanism paused、R09 全名字推广 rejected 不重启。
-
-只研究 P3，不读改 P4/P6，不安排多代理，不购买、登录、投稿或对外联系。完整未发表成果非公开保存，GitHub 仅必要状态与恢复索引；有实质记录才提交，无变化不制造报告或提交。
+A_STOPPED / B_UNRESOLVED / DEPTH_MECHANISM_PAUSED / COVER_ADDRESS_VP_REJECTED 保留。只研究 P3，不读改 P4/P6，不安排多代理，不购买、登录、投稿或对外联系。完整未发表成果非公开保存；GitHub 仅必要状态与恢复索引。有实质记录才提交，无变化不制造报告或提交。

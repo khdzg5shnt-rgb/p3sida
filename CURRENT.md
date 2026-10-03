@@ -1,30 +1,26 @@
 # CURRENT
 
-更新时间：2026-10-03（UTC）
+更新时间：2026-10-04（Asia/Shanghai）
 
 ## 当前裁决
 
-- R12_COMPLETE / MATHEMATICAL_AUDIT_PASS / INDEPENDENT_NOTE_CORE_SUPPORTED / REVISED_RESEARCH_MANUSCRIPT_READY / NO_KNOWN_MATHEMATICAL_BLOCKER / JOURNAL_PACKAGE_NOT_PREPARED / GLOBAL_PRIORITY_NOT_CERTIFIED / NO_NEW_STRUCTURAL_MAIN_THEOREM。
-- 启动 main 为 8faadb51205f11dc15236991d77b544af7f485e0，与恢复基线一致。全文读取 CURRENT、R11_STATUS、NEXT_COMMAND；仓库树与适用本地祖先路径未发现 AGENTS.md，无后续实质完成项。
-- 实际全文恢复 R11 完整报告、TeX 及七页 PDF，字节和 SHA-256 匹配；按依赖回查 R10/source packet、原稿及相关旧记录。原稿与 R11 均保留。
-- 非取到主核心通过全部定理、证明及量词审查：任意固定整数 period、任意有限 Borel partition、全部初值、完整终端安全、物理时间归一化均保持。该例依赖无限输入和零维约束，不是 B 的有限控制／光滑／regular-closed 反例。
-- 实际修正安全吸收态范围表述，补全两种 cover 计数的定义、子乘性与极限，以及 scale 阈值和格点比较接口。重证和补证计为审查修订，不计新结构突破。
-- 已检查的 Kawan、HZ、WHS、ZC、CZ、NWH 等原文条件与完整相关证明未覆盖该存在性反例；新增直接相邻数值/uncertain-control 指定原文版本的对照也未形成严格蕴含链。裁决有界，不认证全球首次。
-- 真实贡献是有限永久程序与有限块 generator 的严格区分及零率非取到；covers 与 scale sharpness 为同机制后果，已知 infimum/comparison 准确归属。没有一般有限记忆或通信不可能性结论。
-- 修订阶段稿 P3_R12_Nonattainment.tex/PDF 完成；8 页，双次编译、全文检查及全部页面渲染检查通过。支持独立专业短文，研究稿无已知数学阻塞；未准备特定期刊投稿包、未投稿，不保证录用。尚无一区 Top 或四大定位证据。
-- 长期 Annals / Inventiones / JAMS / Acta 目标保留；更高分量仍缺广泛自然模型中取到/非取到的结构性贡献。本轮不筛加强目标、不重启旧方案。A_STOPPED / B_UNRESOLVED / DEPTH_MECHANISM_PAUSED / COVER_ADDRESS_VP_REJECTED 保留。
-- 只研究 P3，无多代理、购买、登录、投稿或对外联系，未读改 P4/P6 内容。没有必须由用户新增补找的原文，不自动安排下一轮重复筛查。
+- R13_COMPLETE / ONE_BOUNDED_CORE_ATTEMPT / LIBRARY_COHERENCE_LEMMA_REFUTED / FINITE_AMBIGUITY_ATTAINMENT_UNRESOLVED / NO_NEW_ATTAINMENT_MAIN_THEOREM / R12_PRESERVED / NO_NEW_MANUSCRIPT / NO_AUTOMATIC_RETRY。
+- 启动 main 为 5995d6046937d99c8d4932306411ce9b62b09f67，最新 main 与恢复基线一致。全文读取 CURRENT、R12_STATUS、NEXT_COMMAND；递归仓库树及适用本地祖先路径未发现 AGENTS.md，无后续完成项。用户明确授权本轮新结构研究，替代 R12 无自动待办状态。
+- R12 完整报告、TeX 和实际保存的八页 PDF 全文恢复，version 0、字节数、SHA-256 全匹配；按依赖回读 R10–R11、原文包、原稿及 R06–R08 相关失败证明。原稿与 R12 文件哈希不变。
+- 最多两个候选、仅推进一个：有限尾部安全域池归入直接有限图充分条件，淘汰；有限歧义零熵安全程序库的条件性取到命题完成一次核心证明尝试。
+- 实际证明了加强的一致程序库实现引理有全 period、全 Borel 反馈的反例，并给同一模型显式零率分割。该反例只排除对指定库的一致实现，不排除所有零率分割；原有限歧义取到命题仍未解决。
+- 新断点是离开证据库后的安全续接能否控制同一固定分割、全部初值的实际名字增长。静态有限纤维不是反馈动力学的因子；不能用一个 selector 失败、库内词数或有限图形式路径替代该证明。
+- 本轮新增实质失败记录，未得到提升论文主结果分量的取到结构定理，不生成修订稿。R12 的正确性、非取到核心及独立专业短文裁决保留；仍无一区 Top 或 Annals / Inventiones / JAMS / Acta 定位证据。
+- 文献按所选命题有界对照。新增取得 Zhong–Huang–Zou 的 2023 刊版相关完整证明；近期有限字典作者稿的 outer/strict 和 recurrence 范围不覆盖 R12 或所选取到命题。版本未验处明确保留；不认证全球优先权，无必须由用户补找的原文。
+- 本次升级尝试关闭，不自动再筛候选。A_STOPPED / B_UNRESOLVED / DEPTH_MECHANISM_PAUSED / COVER_ADDRESS_VP_REJECTED 保留。只研究 P3，未读改 P4/P6 内容；无多代理、购买、登录、投稿或对外联系。
 
-## 完整成果恢复
+## 非公开成果恢复
 
-完整未发表稿件与审查记录非公开保存。新文件实际返回 version 0，保存后下载回核；身份详见 [R12_STATUS](research/R12_STATUS.md)。
+完整证明只非公开保存；GitHub 仅必要状态与索引。完整身份见 [R13_STATUS](research/R13_STATUS.md)。新文件保存返回 version 0，local identity 应用成功；无新 PDF 或封装哈希差异。
 
-| 文件 | 版本／实际恢复字节数 | SHA-256 |
+| 文件 | 版本／字节 | SHA-256 |
 | --- | --- | --- |
-| P3_R12_Research_Report.md | 0／35,939 | 931efd2eb25617a6e5764fce4090dd03ff48e2f55eeeefddee1654132996255d |
-| P3_R12_Nonattainment.tex | 0／27,254 | 3a70b7b5e3ebdfc89e7edd0bb5398d08f63bf185eb0cfda1595d2fe66823d470 |
-| P3_R12_Nonattainment.pdf | 0／288,210／8 页 | 54f5dd7cc1ba2c12ee7b13c7978fb3bb1eb7eb5e72f7afad8ff16aabb97ca5f4 |
+| P3_R13_Research_Report.md | 0／33,686 | 6ad389cd36ab4cf23315d05816ec72cf51d63c223894b0b6eb9074d162d327de |
+| P3_R13_Source_Readings.zip | 0／449,567 | 181361e2f0ac68c0807cad4dfebcf2456014d406ebe9def35e5738e0747291cd |
 
-PDF 表列保存后实际恢复的加签字节；编译 payload 为 242,244 字节，SHA-256 551d0eb60eb382431b25902c5a2e09691f53276bdcc0d61aa00187544f41ce4b。两者八页正文提取完全相同，不混用恢复哈希。
-
-原稿、R10、R11 身份索引保留：[R11_STATUS](research/R11_STATUS.md)、[R10_STATUS](research/R10_STATUS.md)。旧状态 [R09](research/R09_STATUS.md)、[R08](research/R08_STATUS.md)、[R07](research/R07_STATUS.md)、[R06](research/R06_STATUS.md) 不改。公开状态不替代完整证明；下一状态见 [NEXT_COMMAND](NEXT_COMMAND.md)。
+R12 研究稿保持当前阶段稿：完整身份及 PDF 保存后恢复哈希见 [R12_STATUS](research/R12_STATUS.md)，不能混用编译 payload。原稿、R10–R11 及旧报告索引保留。没有用公开状态重建证明；下一完成边界见 [NEXT_COMMAND](NEXT_COMMAND.md)。
