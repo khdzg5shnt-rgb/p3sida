@@ -1,29 +1,31 @@
-# NEXT_COMMAND — P3 候选 B 的条件恢复入口
+# NEXT_COMMAND — P3 R04 后的条件恢复入口
 
-本入口承接 R03。A 的无条件目标继续停止；B 真伪未定、覆盖未定且暂停。当前获准继续的四大路线为零。状态以 latest main 为准，R03 起点 dd21567b0022c7c0626cd4e916d757245c6199b9、R02 起点 e03a3f5、原稿基线 5284f12 保留。
+当前承接 R04：B 真伪与全部已知覆盖未最终裁定，独立四大级重大后果链未建立，维持暂停；A 的无条件目标继续停止。获准继续的四大路线为零。以 latest main 为准，R04 起点 426b93c3c530a2058095907ad2f2f2d780b1375a、原稿基线 5284f12 保留。
 
-## 先提供会改变停点的新输入
+## 新输入应改变实际停点
 
-继续需要下列之一：可以实际阅读全文的目标原文；尚未检查的可信公开原文地址；精确重大后果命题及其可读可靠原文。已尝试入口和失败记录见 P3_R03_Research_Report.md。Sun 的机构主页曾返回 503，但目前没有发现其全文附件地址；恢复访问本身不等于新的数学证据。
+指定的 WHS19、CHZ26、ZC23、CZ24 及 WH24 五篇已全文到位并读完，不再重复旧获取失败或相同指定核验。Kawan13 相关完整证明已读。有限永久安全程序、dense EI、零 invariance entropy 和不同 partition 的率趋零是已知结果，不算升级。
 
-没有新输入或新入口时，保持暂停并如实说明。不重复相同检索，不把恢复旧文件写成新数学工作，也不生成一个只有重复内容的新报告或提交。
+继续核心 B 需要精确新证据：B 严格导出的独立重大数学后果及完整逻辑链、可读可靠原文，或者实际给出 exact B 的已有取到定理。一般 full-history/shared-clock 模型的零通信率已由假设推出，不再作为 B 意义依据；不能换成未经推出的 finite-memory/finite-state 或 strong-interior 任务。
 
-## 有新输入时可直接发送
+需要补核的一篇实际依赖是 Huang, Y., & Zhong, X. (2018), Carathéodory–Pesin structures associated with control systems, Systems & Control Letters 112, 36–41, DOI 10.1016/j.sysconle.2017.12.009；需包含完整定义、Theorems 3.1/4.1/5.1 与证明的期刊最终 PDF，有公开 corrigendum 则同时核验。它用于补 WHS19 的引用版本；取得它不自动通过 B 的重大意义门槛。若还需要用户补找文献，必须在最终回复单独列明准确题名、作者、DOI 及版本，不能只埋在此入口或报告里。
 
-@GitHub 继续 khdzg5shnt-rgb/p3sida 的 P3 四大升级，只恢复并裁决既有 B。先核对 latest main；已有后续实质成果采用最新版，不重复已完成任务。全文读取 CURRENT.md、research/R03_STATUS.md、research/R02_STATUS.md、research/R01_STATUS.md 和 NEXT_COMMAND.md。
+没有新证据时保持暂停，不重复恢复/检索形成“新数学工作”，不生成只有重复内容的新报告或提交。
 
-本次新增原文或精确后果线索：[填写可读文件、可信公开全文 URL，或重大后果命题及可靠原文来源。]
+## 有新输入时可发送
 
-实际读取 P3_R03_Research_Report.md、P3_R02_Research_Report.md、P3_R01_Research_Report.md、P3_R01_Minimax_Gap.pdf 和 .tex，按恢复记录核对 SHA-256。原稿仍为未修改的 P3_JDE_FINAL_STYLE.tex 和对应 PDF。缺失或身份不匹配时说明，不用公开摘要重建完整成果；能独立进行的原文检查继续完成。
+@GitHub 继续 khdzg5shnt-rgb/p3sida 的 P3 四大升级，只接续 R04 的原文依赖核验及既有 B 裁决。先核对 latest main；已有后续实质进展采用最新版，不重复已完成任务。全文读取 CURRENT.md、research/R04_STATUS.md、research/R03_STATUS.md、research/R02_STATUS.md、research/R01_STATUS.md 和 NEXT_COMMAND.md。
 
-只核查以下未完成的关键原文：Wang–Huang–Sun (2019) Theorem 6.4、Corollary 6.5(iii)、Eq. (2.1)；Chen–Huang–Zhong (2026) Theorem 3.3；Zhong–Chen (2023) 与 strict/inner complexity 最近的完整定义、定理和证明；Chen–Zhong (2024)，DOI 10.1016/j.jmaa.2024.128533 的对应结论。Wang–Huang (2024)，DOI 10.1007/s10884-023-10269-z 的精确通信模型与定理未读到，只在重大后果线索确实需要它时补核。Zhong–Chen–Huang (2021) 的 arXiv:2005.10457v1 已读范围沿用 R02，不默认与期刊版一致。
+本次新增输入：[可读的 Huang–Zhong18 期刊全文、可改变 B 覆盖的完整原文，或 B 的精确独立重大后果及可靠原文。]
 
-核对精确假设、量词、版本及勘误，区分 strict containment 与邻域 containment、controlled invariant set 与 technical control set。摘要、书目、引用列表与第一页预览都不替代原文。全文不可得保留未核验，不购买、登录或联系作者。
+实际恢复并读取 P3_R04_Research_Report.md、R01–R03 完整报告、P3_R01_Minimax_Gap.pdf 和 .tex，按 R04_STATUS 核对 SHA-256。原稿仍为未修改的 P3_JDE_FINAL_STYLE.tex 和对应 PDF。缺失或身份不匹配时说明，不从公开状态或摘要重建完整成果；能独立完成的新原文核验继续。
 
-B 保持原目标：M 紧光滑流形，U 有限，每个 f_u 为 C∞，Q 非空紧且 controlled invariant，Q=closure(int_M Q)，全部序列 admissible；bounded strict spanning complexity 是否蕴含存在某个固定有限 period 的有限 Borel invariant partition，其指数 itinerary entropy 为零？不添加 control-set 假设，不要求 itinerary 数有界或所有尺度为零，不改为其他目标。
+沿用已经到位且已核验的五篇原文及明确范围。发现新误读、假设缺失或证明问题时定位修正；版本差异或勘误没有穷尽认证，不默认无误。需要补核的历史依赖只以实际全文为据，不购买、登录或联系作者；不能用书目或二次引述补原文证明。
 
-先判断已有原文是否严格蕴含 B：已覆盖则关闭其原创性目标；原文不足则不能宣布未覆盖。再给出 B 若成立严格导出的独立重大数学后果、完整逻辑链和可靠原文，并提供准确 APA 引用与 DOI。已有零熵、一列分割的率趋零，与一个固定分割真正取到零率必须分清；宽泛的通信解释不能代替精确模型与意义证据。
+B 保持原目标：M 紧光滑流形，U 有限，每个 f_u 为 C∞，Q 非空紧且 controlled invariant，Q=closure(int_M Q)，全部序列 admissible；bounded strict spanning complexity 是否蕴含存在某个固定有限 period 的有限 Borel invariant partition，其指数 itinerary entropy 为零？不添加 control-set 条件，不改成 inner/outer containment，不要求 itinerary 数有界或所有尺度为零。
 
-重要性、当前成果分量和证明可行性分别评价。覆盖与重大后果证据足够时，立即攻击 B 决定成败的固定分割接口，只推进这一条，给完整证明、反例或确切失败断点。证据不足则维持暂停，允许零条通过。A 不改名重启，不补第三候选，不用润色、扩写、外围引理或正则性提升替代贡献。
+先核对已有成果是否严格蕴含 B；已覆盖则关闭原创性目标，证据不足则不能宣布未覆盖。再核对 B 是否严格导出独立重大数学命题，给完整逻辑链、精确原文依据与 APA/DOI。区分已有零熵、一列不同 partition 的率趋零、某个固定 partition 真正取得零率，以及完整历史编码器与有限记忆/有限状态模型。不能把由假设已成立的有限初始通信后永久安全当成 B 的新重大后果。
 
-目标保持 Annals、Inventiones、JAMS、Acta 级数学贡献，不承诺成功、不降低目标。只研究 P3，不改 P4/P6，不安排多代理，不投稿或对外联系。沿用公开范围：完整未发表研究非公开保存，GitHub 只更新必要状态与恢复索引。只保存实际新增证据、成果、失败记录和下一入口；有实质更新时更新 CURRENT 与 NEXT_COMMAND，提交后实际回读。最终用通俗语言说明新增了什么、未核验什么，以及继续或暂停的具体理由。
+重要性、当前成果分量与证明可行性分别评价。覆盖和重大意义证据足够时，本轮立即攻击固定分割的可重复使用与全部 itinerary 次指数界，至多推进 B 一条，给完整证明、反例或确切新失败断点。证据不足则暂停，允许零条通过，不伪造核心尝试。A 不改名重启，不补第三候选，不以难度、光滑性、润色、扩写或外围引理代替升级。
+
+目标保持 Annals、Inventiones、JAMS、Acta 级贡献，不承诺成功、不降低目标。只研究 P3，不读改 P4/P6，不安排多代理，不投稿或对外联系。完整未发表成果非公开保存，GitHub 仅必要状态和恢复索引；有实质新证据才更新 CURRENT、轮次状态和 NEXT_COMMAND，提交后实际回读。最终用通俗语言分开说明原文新增、实际新数学结果、未核验项及具体继续/暂停理由。需要补找文章时单独列“需要你补找的文献”。
