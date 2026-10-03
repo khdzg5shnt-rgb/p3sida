@@ -1,33 +1,31 @@
-# NEXT_COMMAND — R08 后的暂停点
+# NEXT_COMMAND — R09 后的停止条件
 
-当前：R08_COMPLETE / CORE_ATTEMPT_COMPLETED / B_UNRESOLVED / DEPTH_PRIORITY_ZERO_RATE_BRIDGE_REJECTED / DEPTH_MECHANISM_PAUSED / NO_STAGE_MAIN_RESULT。
+当前：R09_COMPLETE / CORE_ATTEMPT_COMPLETED / COVER_ADDRESS_VP_REJECTED / B_UNRESOLVED / DEPTH_MECHANISM_PAUSED / NO_STAGE_MAIN_RESULT。
 
-本轮启动点：3bcc0f741c98cfffa456e8eab2bcc072b7ea0ee2。恢复采用 latest main；已有后续完成项采用最新版。长期四大目标与近期阶段安排保留，不恢复四大重大后果前置门槛，不保证升级链或刊物层次。
+本轮启动基线：42bc42ac43605efa3e5a04fa66990baa85d1c6cb。恢复采用 latest main，已有后续完成项采用最新版，不重复执行。长期四大与近期阶段安排不变；R09 允许重新选择 A、B 之外的阶段目标，不恢复四大重大后果前置门槛，不认定期刊档次。
 
 ## 必须实际恢复
 
-全文读取 CURRENT.md、research/R08_STATUS.md、NEXT_COMMAND.md。实际恢复并全文读取 P3_R08_Research_Report.md：version 0，26,038 字节，SHA-256 ba88921135bbfc3a64488250809a53d846329e48ffcaaa6f11d6b041269d39ab。身份见 R08_STATUS。版本 0 是首次保存的实际返回值，不自行改记为 1。
+全文读取 CURRENT.md、research/R09_STATUS.md、NEXT_COMMAND.md。实际恢复并全文读取 P3_R09_Research_Report.md：version 0、30,205 字节、SHA-256 f4518931bd9d2e6be5a8b52f341d673b9ec9e2f4e267cf9904723caf5929edc6。完整身份见 R09_STATUS；版本 0 是实际首次保存结果，不自行改记为 1。
 
-按实际依赖恢复 R07 完整报告 version 1，27,904 字节，SHA-256 97ad4b9620ee5008f15aebeec7e6b68629867ff5c200539f0f2f71dc76140b8e；R06 完整报告及原稿、R04/R05、R01/R02 相关完整部分。原稿与旧报告保留。缺失时说明，不用公开状态重建证明。
+按实际依赖恢复 R08（version 0，26,038 字节，SHA-256 ba88921135bbfc3a64488250809a53d846329e48ffcaaa6f11d6b041269d39ab）、R06/R07 完整相关部分及原稿 TeX/PDF。原稿与旧报告保留原样。资料缺失时说明，不用公开状态重建证明。
 
-## 已完成与应停止的推理
+## 已完成与关闭的目标
 
-R08 已严格落实深度规则的 Borel 性、有限最高见证、无限深度有限输出选择及重复安全。安全选择本已知道，没有因此完成升级。尚无同一固定分割的全部实际 itinerary 次指数界。
+R09 已完整否定其唯一正面推广目标：原重叠覆盖的全名字熵不能无条件等于所有状态测度的最佳柱集局部积分。反例具有有限控制、clopen、控制词单射；其全测度上界及固定 period 归一化已证明。失败是指数地址重数，不能以更好 Borel selector 消除。
 
-深度优先级在 R06 的指定设置下就是旧正熵规则；同例另一规则仍零率。R07 非周期模型中，全部 Q 对每个固定 block 的深度也无限。旧例和旧计数不重复算新进展。暂停深度方案，关闭“深度增长／无限见证加任意词优先级即可零率”的推理；不声称 B 为假或所有更细安全域机制失败。
+没有否定所有状态-cover Bowen 公式，也没有反驳原稿固定分割主定理。本例不是 B 的反例。改变 entropy object、商掉名字或添加条件将是另一命题，不能当成原目标已解决；不能将原稿有限 incidence warning、Kawan partitionization 或 R05 不单射诊断重新记作发现。
 
-R07 已排除普遍有限尾部闭合／最终周期覆盖／有限全序名次单调的桥梁，不能退回这些办法。有限阶形式图路径不代替真实名字的高阶一致性。A 的无条件目标继续停止，不改名重启，不补第三候选。
+所选目标已关闭，尚无独立阶段主结果，不生成修订稿。不自动运行 R10，也不自动安排下一轮重复筛选。A 被否定的无条件目标继续停止；B 未解决，深度方案保持暂停。
 
-## 什么证据才支持重新评估继续
+## 什么具体证据才支持再授权后的继续
 
-不自动启动 R09，不生成下一轮重复试探指令。若用户另行授权继续，先检查是否出现实质新证据：
+1. 如评价原稿本身的阶段贡献：以已到位的完整 general-gauge／Frostman 原文，严格对应有限 Borel 分割、Borel K、精确 prefix costs，给已知覆盖推导或确切未覆盖接口；区分全球新颖性未定与已经严格证明的新贡献。原页编号未认证单独标明，不拿 theorem title／摘要代替证明。
+2. 如另选阶段加强目标：先有一个与 P3 主问题实质相连的精确命题、相对既有理论的增量及可检验核心接口；不能只是本轮计数、改参数、换 period、外围引理或正则性提升。经用户继续授权后仍最多比较两个、推进一个，允许零条通过。没有具体入口，不自动重复重筛。
+3. 如重评 B：必须有不同于旧排序／深度规则的新增长机制，对同一个固定 Borel block rule 的全部初值、全部实际非空 itinerary 给次指数界；或者完整文献严格蕴含原 B，或者反例排除所有允许 periods 和有限 Borel partitions。仅安全、有限输出、有限尾部闭合、共同周期、有限阶形式图路径数及深度重新排序均不够。
 
-1. 一个与本轮任意词排序不同的严格机制，对无限深度区域上同一个固定 Borel block 规则，控制全部实际非空名字的次指数增长。
-2. 将该规则用于全部 Q 所需的 finite-depth／进入前名字统一控制。稠密 EI 子集、逐点安全、逐点低复杂度或某个测度支撑不替代全部初值界。
-3. 已读完整原文的严格覆盖推导，或排除全部 finite periods 和所有允许 finite Borel partitions 的 B 反例。
+这些是恢复证据条件，不是已取得结果或新安排的路线。没有相关证据，维持 NO_STAGE_MAIN_RESULT；不制造报告、提交或论文篇幅。只有正确、新颖且有明确专业意义的新主结果才支持独立修订稿，原稿保留。
 
-这些是恢复判断的具体证据条件，不是已获结果或新候选。仅重排词、增大 period、重讲有限输出／深度增加或重做 R06/R07，不支持再次运行同一方案。没有新证据，维持 B_UNRESOLVED / DEPTH_MECHANISM_PAUSED / NO_STAGE_MAIN_RESULT，不制造报告与提交。
+B 原目标不变：紧光滑 M、非空有限 U、C∞ 转移、非空紧 controlled invariant Q=closure(int_M Q)、全部序列 admissible；bounded strict spanning complexity 是否蕴含某个固定有限 period 的有限 Borel invariant partition 取得零指数 itinerary entropy。不添 control-set、clopen、安全词唯一性、周期覆盖、inner containment 或有界名字条件。输入与完整状态终点、物理 period 及全部初值量词保持。
 
-B 原目标不变：紧光滑 M、非空有限 U、C∞ 转移、非空紧 controlled invariant Q=closure(int_M Q)、全部序列 admissible；bounded strict spanning complexity 是否蕴含某个固定有限 period 的有限 Borel invariant partition 取得零指数 itinerary entropy。不加 control-set、clopen、安全词唯一性、周期覆盖、inner containment 或有界名字数。允许 family 之外的词，但必须证明完整 block 安全、重复接续、物理 period 归一化与全部实际名字界。
-
-只研究 P3，不读改 P4/P6，不安排多代理，不购买、登录、投稿或对外联系。完整未发表记录非公开保存，GitHub 只必要状态与恢复索引；有实质记录才更新并提交，提交后实际回读。没有新增必要补找文献，已经提供的全文不再索要。
+只研究 P3，不读改 P4/P6，不安排多代理，不购买、登录、投稿或对外联系。完整未发表研究非公开保存，GitHub 只必要状态与恢复索引；有实质新记录才提交，提交后实际回读。没有新增必要补找文献，已提供全文不重复索要。
