@@ -4,30 +4,32 @@
 
 ## 当前裁决
 
-- 阶段：R04_COMPLETE / NO_UPGRADE_ROUTE_APPROVED / B_PAUSED。B 真伪未定，获准继续的四大路线仍为零；A 的无条件目标继续停止。
-- R04 恢复点与启动 main：426b93c3c530a2058095907ad2f2f2d780b1375a。启动和写入前核对均无后续变化。原稿基线 5284f1272dcf877ec209a344ec09c9db3f55ba59 保留。
-- 实际恢复并全文读取 R01–R03 完整报告、R01 TeX 及四页证明 PDF，核对恢复 SHA-256；原稿及旧成果保持原样。原稿全篇及主证明复核沿用 R01/R02，不把重复读取算作升级。
-- 新增原文已到位：WHS19、CHZ26、ZC23、CZ24 四篇期刊 PDF 全文读完，指定定义、定理、证明及本轮使用的依赖已在明确范围内核对。WH24 数据率论文也全文读完，Kawan13 的相关章节及完整证明已读。文件身份、版本、DOI、SHA-256 和准确 APA 见 R04_STATUS 与非公开报告；不再标记上述五篇全文不可得。
-- 新覆盖证据：ZC23 Theorem 2.10 与 CZ24 Theorem 2.3 在 B 中适用，给出有限永久安全程序覆盖、finite equi-invariability 及稠密 equi-invariant 点。更强的 control-set 定理需要额外可达性和最大性，B 未假定这些条件。
-- WHS19 Eq. (2.1) / Kawan13 是分割熵的下确界；WHS19 Theorem 6.4 和 CHZ26 Theorem 3.3 先固定 clopen 分割、要求 K 紧；WHS19 Corollary 6.5(iii) 另要 maximally irreducible clopen 分割。指定证明中的时间归一化与参数书写问题已定位，报告给出本轮离散整数 period 范围的修正核对，不扩张结论。
-- 覆盖仍未最终裁定：已核验原文没有给出 B 的固定零熵分割，本轮未建立由这些结果进一步严格推出 B 的证明；不能宣布 B 已覆盖，也不能据此宣布全球未覆盖或原创。
-- 意义裁决更明确：在原文允许完整历史、时间索引及可变 alphabet 的通信模型中，有限初始信息后永久安全、平均通信率零，已经由 bounded strict complexity 的假设推出。不能把它当作 B 的新重大后果；strong interior、有限记忆或有限状态结论也没有可靠蕴涵。
-- B 实际新增的是某个固定有限 period 的有限 Borel 分割真正取到零指数 itinerary 率。本轮未建立它严格导出独立四大级重大数学后果的完整链。数学可行性仍未知，固定规则的可重复使用及全部 itinerary 次指数界没有解决。
-- 新增的是实质原文与逻辑核验；B 的新定理、反例或决定性证明步骤为零。证据门槛未通过，按要求没有启动新核心攻击，不把修正已发表证明、外围引理或润色算作升级。
-- 仍未核验：B 真伪与全部已知覆盖、重大后果链、Huang–Zhong18 的实际源版本、2013 note 的期刊最终编号/后部全文、穷尽的版本差异及勘误。指定五篇已提供全文不属于缺失项。
+- 阶段：R05_COMPLETE / NO_UPGRADE_ROUTE_APPROVED / B_PAUSED。B 真伪未定，获准继续的四大路线仍为零；A 的无条件目标继续停止。
+- R05 恢复点与启动 main：999d546d22eb4cdb6b244725b809b88c3c801913。原稿基线 5284f1272dcf877ec209a344ec09c9db3f55ba59 保留。
+- 实际恢复并全文读取 R01–R04 完整报告、R01 TeX 及四页证明 PDF，按恢复记录核对 SHA-256。两份原稿及旧成果保留原样；原稿全篇及主证明审查沿用 R01/R02，不把重复恢复算作升级。
+- Huang–Zhong（2018）新附件已匹配用户 SHA-256，六页期刊正文及证明全部读完，逐页图像对照。Theorems 3.1、4.1、5.1 的完整定义、假设、量词、证明和所需依赖已经核验。文件到位与证明核验分开记录；不再标记这篇全文缺失。
+- 新增证据：2018 与 2019 的 maximally irreducible 定义存在实质差异；2018 印刷的分割时间成本、控制词条件及离散端点不能直接照抄。完整报告定位问题、给出检验及明确范围的修正推导，不冒称已发表勘误或全篇无误。
+- R04 独立推导在其已写明的 compact/clopen、正确时间成本及 WHS19 强唯一性条件内保留。它不是自动适用于 B 的 generator 存在定理；真实引用链已定向回查，不把重复阅读计作新突破。
+- R04 已全文读取的 WHS19、CHZ26、ZC23、CZ24、WH24 及 Kawan13 相关完整证明继续有效。ZC23 2.10、CZ24 2.3 在 B 中适用，给出有限永久安全程序覆盖、finite EI 和 dense EI；更强 control-set 条件没有添加进 B。
+- 覆盖未最终裁定：已把新旧结果实际组合检查，仍缺从 bounded strict complexity 到固定零熵分割存在性的严格蕴涵。不能宣布已覆盖，也不能据此宣布全部前人未覆盖或原创。
+- 意义门槛仍未通过：已有有限安全程序、零 invariance entropy、不同分割的率趋零，以及完整历史/共享时钟模型的零渐近通信率均由假设已推出。新增原文没有建立 B 通向独立四大级重大数学命题的严格链；有限记忆、有限状态和强内点结论也没有可靠蕴涵。
+- B 仍要求某个固定有限 period 的有限 Borel 分割真正取到零指数 itinerary 率。固定规则可重复使用及全部 itinerary 次指数界尚未解决。
+- 本轮实质新增是原文依赖补核和数学诊断；B 的新定理、B 反例及决定性证明步骤为零。依用户证据门槛，没有启动新的 B 核心攻击，不伪造失败尝试。
+- 仍未核验：B 真伪、全部已知覆盖、独立重大后果链、各版穷尽比较及公开勘误、2013 note 最终编号与后部全文、未用于本轮的其他定理。HZ18 和 R04 已提供全文不属于缺失项。本轮没有新的必要补找文献。
 
-B 保持原目标：M 紧光滑流形，U 有限，每个 f_u 为 C∞，Q 非空紧、controlled invariant 且 Q=closure(int_M Q)，全部序列 admissible；bounded strict spanning complexity 是否蕴含存在某个固定有限 period 的有限 Borel invariant partition，其指数 itinerary entropy 为零。不加 technical control-set 条件，不更换 containment 或要求有界 itinerary / 所有尺度为零。
+B 保持原目标：M 紧光滑流形，U 有限，每个 f_u 为 C∞，Q 非空紧、controlled invariant 且 Q=closure(int_M Q)，全部序列 admissible；bounded strict spanning complexity 是否蕴含存在某个固定有限 period 的有限 Borel invariant partition，其指数 itinerary entropy 为零。不加 technical control-set 条件，不换 containment，不要求有界 itinerary 或所有尺度为零。
 
-## 原稿与保存范围
+## 原稿与完整成果恢复
 
-| 文件 | SHA-256 |
-| --- | --- |
-| P3_JDE_FINAL_STYLE.tex | 79842eba9bdf4280b361eea04b6d3191b9429c61c4467019eb6245801464b7ee |
-| P3_JDE_FINAL_STYLE.pdf | 568abbeb4268cb8676f66dcd3b0d1dfff149e91f7c5e3b54d7c80dbae0ef196e |
-| P3_R04_Research_Report.md | 4f887e415f5f088517d8f31eb1a5e41c94380f8d38bec218fbfb8904ff439490 |
+| 文件 | 字节数 | SHA-256 |
+| --- | --- | --- |
+| P3_JDE_FINAL_STYLE.tex | 143,115 | 79842eba9bdf4280b361eea04b6d3191b9429c61c4467019eb6245801464b7ee |
+| P3_JDE_FINAL_STYLE.pdf | 553,697 | 568abbeb4268cb8676f66dcd3b0d1dfff149e91f7c5e3b54d7c80dbae0ef196e |
+| P3_R05_Research_Report.md | 33,055 | c01adea2d0d01caa8999e071c982760978047ec7887db40f1a292d2f11b6639b |
+| P3_R04_Research_Report.md | 46,438 | 4f887e415f5f088517d8f31eb1a5e41c94380f8d38bec218fbfb8904ff439490 |
 
-R04 完整报告为 46,438 字节，已非公开保存。仓库仍为 public，只含必要状态及恢复索引；未上传完整研究、证明或任何论文 PDF。R01–R03 的状态和完整成果保留原样。
+R05 完整报告已非公开保存；public 仓库只含必要状态与恢复索引，不上传完整研究、检验反例证明、原稿或论文 PDF。R01–R04 历史状态及完整成果保留原样。
 
-本轮恢复身份及阅读范围：[R04_STATUS](research/R04_STATUS.md)。历史：[R03_STATUS](research/R03_STATUS.md)、[R02_STATUS](research/R02_STATUS.md)、[R01_STATUS](research/R01_STATUS.md)。下一入口：[NEXT_COMMAND](NEXT_COMMAND.md)。
+本轮：[R05_STATUS](research/R05_STATUS.md)。历史：[R04_STATUS](research/R04_STATUS.md)、[R03_STATUS](research/R03_STATUS.md)、[R02_STATUS](research/R02_STATUS.md)、[R01_STATUS](research/R01_STATUS.md)。下一入口：[NEXT_COMMAND](NEXT_COMMAND.md)。
 
-目标保持 Annals / Inventiones / JAMS / Acta，不承诺成功、不降低目标。只研究 P3，不读改 P4/P6，不安排多代理，不购买、登录取得原文、投稿或对外联系。
+目标保持 Annals / Inventiones / JAMS / Acta，不承诺成功、不降低目标。只研究 P3，不读改 P4/P6，不安排多代理，不购买、登录、投稿或对外联系。
