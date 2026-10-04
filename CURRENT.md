@@ -1,23 +1,23 @@
 # CURRENT
 
-更新时间：2026-10-04
+更新时间：2026-10-05
 
 ## 当前裁决
 
-- R23_COMPLETE / R19_TARGET_UNRESOLVED / FINITE_PATCH_BOUND_PROVED / COHERENT_BOREL_LIMIT_NOT_ENTROPY_PRESERVING / UNIFORM_BUDGET_UNPROVED / NO_NEW_MAIN_RESULT / R16_PRESERVED / NO_NEW_MANUSCRIPT / NO_AUTOMATIC_RETRY。
-- 启动 main 为 007ab2a5e196021024d2ee75e369deb9dbfaeede，与用户基线一致。全文读取 CURRENT、R22_STATUS、NEXT_COMMAND 及 README，核对仓库树与适用指令，无 AGENTS.md 或后续完成项。用户授权保持 R19 原假设研究共同实际输出预算，未增加结构条件或恢复一般问题。
-- R22 两件固定恢复，版本、字节、SHA-256 和 ZIP manifest 一致，报告全文读取。按依赖恢复 R21、R20、R19、R16 的完整相关证明和实际保存文件；原稿与旧版保留。
-- 实际构造有限根集的相容 Borel 源路线拼接，旧动作不撤销，在整个新增吸收区域给出完整实际输出界；界仍依赖根数，未给所有有限根集共同预算。
-- 完成有限状态修改的首达计数，以及同一严格源模型上相容冻结、零率有限阶段和正率 Borel 极限的准确推导。旧模型及宏机制不重复计作贡献；同模型有零率反馈，故不是 R19 反例。
-- 给定共同预算后的任意全局函数存在可由标准紧性证明；共同预算本身及一般 Borel 实现仍未从原假设推出。不能称为只差可测性。
-- 有新辅助推导与更具体极限拼接断点，没有增加 R16 论文主贡献，不生成升级稿、不提高期刊判断。无新增外部定理承担未证明步骤，无必须补找的原文。
-- 本次有界尝试结束，不自动重试、换题或返回一般 R18／R17／FA2。A、B、depth mechanism、R09 原停止／暂停边界保留。只研究 P3，不读改 P4/P6，无多代理、购买、登录、投稿或外部联系。
+- R24_COMPLETE / R19_TARGET_UNRESOLVED / ROOT_FREE_LOCAL_WORD_DOMAINS_PROVED / JOINT_OUTPUT_BUDGET_UNPROVED / BOREL_SAFE_RULE_CONSTRUCTED / NO_NEW_MAIN_RESULT / R16_PRESERVED / NO_NEW_MANUSCRIPT / NO_AUTOMATIC_RETRY。
+- 启动 main 为 fd87322e2e5db8f8467a14a92f7811ab3833e8bc，与基线一致。核对最新 main、递归仓库树及适用祖先指令，全文读取 CURRENT、R23_STATUS、NEXT_COMMAND、README；无 AGENTS.md 或后续完成项。
+- R23 两件及九项实际依赖固定恢复，十一件身份、version 0、字节和 SHA-256 一致；报告全文读取，三个 ZIP 的全部内部 manifest 和 CRC 核验。旧文件与 R16 保留。
+- 完成无限修改集合的新增实际词分解、可能不可数源入路的闭掩码、与根数无关的小候选词典及全状态非空的 Borel 后继支持词域。
+- 实际构造固定 period 的有限 Borel 安全反馈，冻结原零率吸收区；全部安全端点和真实名字处理完整。其低率上界仍含未受控的实际轨迹后缀匹配缺陷，未证明共同次指数预算。
+- 小候选词典和逐点后继支持不等于多个根的相容单值选择。原存在性仍未证明或反驳，根数依赖仅在局部词级接口消除，不能宣称全局预算已闭合或只差可测性。
+- 有新的辅助构造和准确计数断点，没有增加 R16 主贡献，不生成升级稿、不提高期刊定位。新增引用与原文数0，无必须补找的文献。
+- 本次集中尝试结束。一般 R18／R17／FA2及 A、B、depth mechanism、R09 原停止／暂停边界保留；不自动重试或换题。只研究 P3，无 P4/P6 读改、多代理、购买、登录、投稿或外部联系。
 
 ## 非公开成果恢复
 
 | 文件 | version／实际字节 | SHA-256 |
 | --- | --- | --- |
-| P3_R23_Research_Report.md | 0／27,660 | 320a2d421cd2217a269824e5265910a11dabb906e846a90c243dd91eabdb6b70 |
-| P3_R23_Proof_Records.zip | 0／14,838 | 72fd0c2c105ab02bfe0566bb578747d0672b5cb32f59dcfb8f494b511806e037 |
+| P3_R24_Research_Report.md | 0／25,149 | 3f55e0cd15722e9342c3122755cdc42db9ce0b99abf188dd7d0b2758f64072c0 |
+| P3_R24_Proof_Records.zip | 0／8,496 | 252ba0561e926e4fbce3dcaec9232dd9162fc6dd8e4f26efe93cfffd204f8407 |
 
-两件保存后按固定身份实际回读，逐字节、版本、哈希和 ZIP manifest 一致。持久身份与完整证明定位见 [R23_STATUS](research/R23_STATUS.md)，直接前轮见 [R22_STATUS](research/R22_STATUS.md)。论文稿仍为 R16，实际身份见 [R16_STATUS](research/R16_STATUS.md)。完整未发表证明非公开；执行边界见 [NEXT_COMMAND](NEXT_COMMAND.md)。
+两件保存后固定版本实际回读，身份、字节、SHA-256 和逐字节比较一致，ZIP 全部六项内容 manifest 与 CRC 一致。持久身份、完整证明定位及准确未闭合量词见 [R24_STATUS](research/R24_STATUS.md)。前轮见 [R23_STATUS](research/R23_STATUS.md)。稿件仍为 R16，实际身份见 [R16_STATUS](research/R16_STATUS.md)。完整未发表内容非公开；本仓库仅必要状态与恢复索引。
