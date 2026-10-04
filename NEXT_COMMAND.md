@@ -1,29 +1,31 @@
-# NEXT_COMMAND — R16 并稿完成，无自动研究待办
+# NEXT_COMMAND — R17 有界尝试完成，无自动重试
 
-当前 R16_COMPLETE / SECOND_MAIN_RESULT_ACCEPTED / TWO_RESULT_MANUSCRIPT_CREATED / M2_UNRESOLVED / FA_PAUSED / R12_PRESERVED / NO_AUTOMATIC_RETRY。
+当前 R17_COMPLETE / QUOTIENT_PRESERVATION_UNRESOLVED / NO_NEW_MAIN_RESULT / R16_PRESERVED / NO_NEW_MANUSCRIPT / FA_PAUSED / NO_AUTOMATIC_RETRY。
 
-## 完成边界
+## 完成与未完成边界
 
-R16 已对 R15 的具体连续／Borel 取到分离完成独立审查、有界原文对照和专业贡献裁决，支持作为第二主结果与 R12 自然并稿。新 R16 TeX 与十三页 PDF 已实际生成、验证并非公开保存。完整裁决和证明在私有报告；公开状态不是证明的替代。
+R17 完成保留全部安全语言的一般紧连续扩展、准确普遍归约，以及一个实际当前状态反馈的完整安全续接和真实计数失败证明。完整推导非公开保存。公开状态不是证明的替代。
 
-原辅助模型与语言模型的结论不可混用；clopen 类非取到不可改写成所有 Borel 分割非取到；重叠 cover 的全部名字与最小子覆盖不可混同。旧局部机制、经典回拉、直接推论不累计为新主贡献。
+原保持命题仍未证明或反驳。准确缺口是商当前状态规则的全部初值统一次指数实际名字估计；不能直接采用源程序的名字数或库词数，也不能将一个选择失败当作排除全部 Borel 分割。普遍问题与已暂停 FA 子类的方向关系在报告中精确陈述，不以改名恢复 M=2 攻坚。
 
-一般 FA 的 M=2 仍未解决且明确暂停。本轮没有自动返回 FA 的授权延续，不安排重复筛查或下一轮研究。R12 原稿保留，R16 为当前并稿版本。没有必须用户补找的原文。
+R16 两项已有主结果与十三页稿件保留；本轮只取得辅助结构和准确失败记录，不生成升级稿、不提高期刊判断。本次有界尝试关闭，不自动安排下一轮重复攻击、筛选、审查、选刊或返回 FA。没有必须用户补找的原文。
 
 ## 仅在新的具体授权下恢复
 
-先核最新 main 与适用指令，全文读取 CURRENT.md、research/R16_STATUS.md、NEXT_COMMAND.md；采用已有后续实质新版，不重复完成项。恢复并全文读取 R16 三件成果，持久身份及实际保存哈希见 [R16_STATUS](research/R16_STATUS.md)。
+先核最新 main 和适用指令，全文读取 CURRENT.md、research/R17_STATUS.md、NEXT_COMMAND.md；采用已有后续实质新版，不重复完成项。按实际身份恢复并全文读取：
 
 | 文件 | version／字节 | SHA-256 |
 | --- | --- | --- |
-| P3_R16_Research_Report.md | 0／36,053 | c79a380785bf0c54e530a0fef0bb3293b560cc8f75e955842ea09be20ed65931 |
-| P3_R16_Nonattainment.tex | 0／46,157 | 90f7ed6c732bff168f2fc656c5dc8baef86216c922b382d266e91047725f3a05 |
-| P3_R16_Nonattainment.pdf | 0／333,004／13 页 | 4ff3575a1bc9807165bd26852e9f5a76a4dd0123f0ffae841924e314bfbe4ec5 |
+| P3_R17_Research_Report.md | 0／41,920 | 47a9c46cddc86e66e6c184be08b8340ab61892b9b4107edb8f7ec1e4bd764225 |
 
-按实际依赖再读 R15 原报告与 R12、R06 等完整相关部分。PDF 用实际保存版本，不混用编译 payload；资料缺失明确说明，不从公开摘要重建证明。原稿和各轮成果保留。
+报告身份：libfile_c1b463e80fc88191a514d9afa1bc3d76 / file_00000000519081fbae58c9c70a86a6d1，保存于 /论文提升四大级别/。
+
+再按实际依赖恢复 R16 的报告、TeX 和实际保存十三页 PDF，身份见 [R16_STATUS](research/R16_STATUS.md)。按需要回查 R15 完整语言、Rep 与真实输出计数，以及 R13–R14 的直接完整失败记录。原稿和所有旧版本保留，资料缺失须明说，不从状态摘要重建证明。
+
+不要把本轮扩展或问题归约说成已经取得商取到；不要把有限库纤维子问题与无纤维界的普遍命题混为等价；不要把全语言一致选择的安全性当作零熵计数；不要将该具体反馈的所有分块下界扩展到其他 Borel 分割。准确未解决接口及已否定的具体估计在私有报告 §10。
 
 ## 持续约束
 
-长期 Annals / Inventiones / JAMS / Acta 目标保留，不承诺成功，不以轮次、篇幅或稿件生成代替分量。R16 已有第二主贡献不等于一般结构问题已解决，也不等于一区 Top 定位已认证。研究稿的实际投稿仍需具体期刊要求与作者信息确认；未授权投稿或对外联系。
+用户希望先逐步争取一区、再一区 Top、再 Annals／Inventiones／JAMS／Acta；目标保留，以数学贡献推进，不承诺成功，不以轮次、篇幅或稿件生成替代分量，也不要求预先认证档次才允许攻证明。本轮没有新的主结果，R16 的独立论文核心保持原裁决。
 
-A_STOPPED / B_UNRESOLVED / DEPTH_MECHANISM_PAUSED / COVER_ADDRESS_VP_REJECTED 保留。只研究 P3，不读改 P4/P6，不安排多代理，不购买、登录、投稿或对外联系。完整未发表成果非公开保存；GitHub 仅必要状态和恢复索引。有实质变化才记录和提交。
+A_STOPPED / B_UNRESOLVED / DEPTH_MECHANISM_PAUSED / COVER_ADDRESS_VP_REJECTED 保留。一般 FA 的 M=2 暂停。只研究 P3，不读改 P4/P6，不安排多代理，不购买、登录、投稿或对外联系。完整未发表成果非公开保存；GitHub 只保留必要状态和恢复索引，有实质变化才记录和提交。
