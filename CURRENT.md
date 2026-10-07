@@ -4,24 +4,25 @@
 
 ## 当前裁决
 
-R45_COMPLETE / FINITE_ADDITIVE_FAMILY_NONATTAINMENT_PROVED / USEFUL_EXTENSION_NOT_NEW_INDEPENDENT_MAIN / R44_MANUSCRIPT_RETAINED / OLD_VERSIONS_PRESERVED / NO_AUTOMATIC_RETRY。
+R46_COMPLETE / PLANAR_AFFINE_ATTAINMENT_UNRESOLVED / AUXILIARY_COUNTING_BRIDGE_PROVED / R44_MANUSCRIPT_RETAINED / OLD_VERSIONS_PRESERVED / NO_AUTOMATIC_RETRY。
 
-- R45 的限定有限加性局部重写族命题成立：在用户指定的同一读取—等待几何内，零率下确界为零，但每个固定有限 period 的每个有限 Borel invariant partition 均有正实际 itinerary entropy。包括任意交替、无限次重写、全部合法安全块和完整终端安全；正率依赖反馈和 period，不是共有正下界。
-- 同一无限初值容量、同时避开算子核的背景、实际读取约束与物理等待共同计价均已闭合。完整数学非公开保存；没有把候选历史或一个 selector 的失败当作全类别结论。
-- 相对 R44 是有用的结构推广，需新的共同代数检查，不能直接按输入意义重编码。但范围仍依赖原读取—等待几何和旧容量机制，不单列新的独立主贡献，不提高期刊定位。
-- 不生成 R45 修订稿。当前稿仍为实际保存的二十页 P3_R44_Nonattainment；原稿和所有旧版原样保留。R44四件version 0实际恢复、字节/SHA及全部证明依赖已核。
-- 启动及保存前 main 为 11f19b73b2fda5605dd1687f36c22e1affe4ed65。CURRENT、research/R44_STATUS、NEXT_COMMAND、README和适用指令已核，无后续成果。R45完整证明有同一代理第二遍审查，没有外部独立审稿认证。
-- R31、R19、一般 R18/R17、FA2 继续暂停；R38没有文件，未索取或补造。本轮结束，没有自动重试、换题或返回暂停问题。
+- R46 已完成一次新的二维统一收缩仿射控制类核心尝试。额外假设 strict invariance entropy 为零时，是否存在同一固定 period 的有限 Borel 零率分割，仍未解决；没有符合全部假设的全类别反例。
+- 已证明给定同一合法 Borel 反馈的实际柱集闭包重数计数桥，保留全部边界初值、奇异/非共形矩阵与完整安全端点。它没有从原假设构造零率反馈，不是取到主定理。
+- 已完整核验本类几何假设不自动推出零下确界；显式范围例的 strict rate 为正，因此不是本轮零下确界命题的反例。小的覆盖词数与收缩乘积也不能单独完成计数。
+- 准确断点是从零 spanning 率实际协调一份固定反馈的安全动作、边界动作与真实后继，使全部实际闭包重数次指数。不能以不同 period 的低率规则代替同一分割取到。
+- 三篇指定直接原文的相关完整证明已取得并读取；有界对照未提供严格控制覆盖，不认证全球新颖性。完整数学、证明审查及文献对应均非公开保存。
+- 相对 R44 只增加有限维类的辅助计数接口与范围核验，没有新增独立主贡献。未生成 R46 稿，不提高期刊定位。当前稿仍为实际保存的二十页 P3_R44_Nonattainment。
+- 启动及保存前 main 为 40a9369e935271a3ad3bc49d7c0accff4c979aa3。R45 两件 version 0 实际恢复，报告及完整核心/审查/文献对应已读，字节、SHA、ZIP CRC及十件载荷一致。R45 已解有限族命题未扩大或重复证明。
 
-## 当前新记录恢复
+## 本轮新记录恢复
 
 |文件|version／实际保存字节|SHA-256|
 |---|---|---|
-|P3_R45_Research_Report.md|0／13,505|311f33e16386aabf9e971b63c79cfc6ef4761128a5e2bcd505e6a786730823c7|
-|P3_R45_Proof_Records.zip|0／31,110|2cbe2ea945ef0617f5b2fb04c83754592d2b32ff3973d00e878761921734b70c|
+|P3_R46_Research_Report.md|0／10,180|491a4b1e5a1acba1c97ae5449d058c03759e2371fa115e128058e13eb9a796b0|
+|P3_R46_Proof_Records.zip|0／20,308|d787358fbb5b34db6e6697d7507c57bf01a0ab002ac97bbcf72549494b3e8c61|
 
-两件均保存后按固定身份实际恢复，逐字节一致；ZIP CRC及十件载荷哈希通过。完整身份、阅读范围和贡献裁决见 [R45_STATUS](research/R45_STATUS.md)。当前稿身份仍按 [R44_STATUS](research/R44_STATUS.md)；实际PDF为400,898字节、20页，使用保存版哈希，不混用编译payload。
+两件保存后按固定身份实际恢复，逐字节一致；ZIP CRC及八件载荷哈希通过。身份与准确阅读边界见 [R46_STATUS](research/R46_STATUS.md)。旧稿与旧证明恢复索引保持 [R44_STATUS](research/R44_STATUS.md)、[R45_STATUS](research/R45_STATUS.md)。
 
-有界原文对照没有严格提供本轮控制结论，未认证全球首次。更高定位仍缺超出工程化符号模型的非平凡结构边界／取到结果或自然控制模型应用；有限族扩大本身不能替代这一贡献。
+更高定位仍缺本有限维类的非平凡取到主定理或满足零下确界且排除全部固定 periods/Borel 分割的严格反例，以及自然适用性和文献增量核验。辅助桥和报告篇幅不代替该成果。
 
-完整未发表成果非公开，GitHub仅必要状态和恢复索引。没有必须用户补找的原文。仅P3，无P4/P6、多代理、旧A/B/depth/R09、购买、登录、投稿或外部联系。
+本轮结束，无自动待办、换题或重试。R31、R19、一般 R18/R17、FA2继续暂停；R38无文件、不补造。仅P3，无P4/P6、多代理、旧A/B/depth/R09、购买、登录、投稿或外部联系。GitHub仅必要状态与恢复索引。没有必须用户补找的原文。
