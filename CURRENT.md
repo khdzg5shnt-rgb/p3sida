@@ -1,3 +1,17 @@
+# 最新稿检查补充（2026-10-09）
+
+FINAL_MANUSCRIPT_REVIEW_COMPLETE / R50_PRIMARY_28_PAGES / ORIGINAL_AND_ALL_HISTORY_PRESERVED / NO_NEW_MAIN_THEOREM。
+
+本次按用户授权检查仓库与最新论文。开始main为9ee10e1cef474b67b094a180c574d40d9d7451e0；检查期间发现R50已经完成，采用0c5a0b4a3d88ae7cd75bbc2c40cab01544594885及树9ba4b1dfe88533d1c08539c0e027e95908aea685，没有覆盖后续成果。
+
+最新完整阅读稿为**P3_R50_Integrated，28页**，实际身份见[R50_STATUS](research/R50_STATUS.md)。全文检查三项主结果、无限局部重写、恢复的几何实现与rotation benchmark；核查范围内未发现需撤回主定理的问题。R44表格中一项结论的解释已在R50正文完成，本次不重复修改稿件。20页审查副本仅为保留的旧版辅助材料，不作为最新稿。
+
+编译、45个标签、15条实际使用参考文献及28页渲染检查通过；论文文件不改。README更新最新导航，原稿、R44、R50及全部历史保持。[审查范围、恢复身份与剩余事项](research/FINAL_REVIEW_20261009_STATUS.md)另列。没有新增主定理、R51、研究续攻或投稿。
+
+以下保留R50完成时的原状态，暂停边界继续有效。
+
+---
+
 # CURRENT
 
 更新时间：2026-10-08 UTC
