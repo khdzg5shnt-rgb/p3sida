@@ -4,24 +4,23 @@
 
 ## 当前完成状态
 
-R49_CONTENT_RECONCILIATION_COMPLETE / ORIGINAL_CORE_COVERAGE_RECONFIRMED / OLD_GEOMETRIC_SCOPE_PRESERVED / DIRECT_COROLLARY_RECORDED / NO_NEW_MAIN_RESULT / R44_MANUSCRIPT_RETAINED / NO_AUTOMATIC_RETRY。
+R50_INTEGRATED_MANUSCRIPT_COMPLETE / ORIGINAL_AND_R44_PRESERVED / RESTORED_GEOMETRY_AND_BENCHMARK / KNOWN_THEORY_ATTRIBUTED / EDITORIAL_INTEGRATION_NOT_NEW_MAIN_THEOREM / NO_AUTOMATIC_RETRY。
 
-- 用户授权核查原稿为何比后续稿长，并继续研究可恢复内容。本次保持P3现有专业问题，不重启任何暂停命题。
-- 原稿实际保存PDF为43页，R44实际保存后恢复PDF为20页，字号与页边距基准一致。主要页差来自主线重写。R44没有包含原稿每项旧实现，不能称逐项超集。
-- 完整恢复R10报告及原文包，重新核验其覆盖链：固定Borel分割的一般尺度变分公式及正率尺度比较属于已有理论应用，独立新颖性主张已在R10关闭。此前将它称为“尚未充分裁决”的答复已纠正。
-- 原稿必要几何实现与旋转证明按真实范围复核，未认定这些有效旧结果为错误。本次完成旧几何方法与当前结果的一项直接合成，保存完整证明；判为次要实现及直接推论，没有新增独立主定理。
-- R44的有限输入Borel非取到、clopen/Borel取到差别、反复重写加强与旧有界spanning现象继续保留。没有生成R49升级论文TeX/PDF，没有提高期刊定位。
-- R46二维收缩仿射零率取到命题仍未解决。R48的长期降秩计数与共享安全续接记录保留；满秩实际词的统一次指数界仍缺，本次未重启该攻击。
+- 用户明确授权原稿与R44取其精华，实际生成一篇统一英文论文。已完成独立TeX和实际编译PDF，不以新增主定理作为合稿前提。
+- 最新完整整合稿为 **P3_R50_Integrated.tex / P3_R50_Integrated.pdf，28页**。原稿实际43页、R44实际保存20页及全部旧版保留，未覆盖。
+- R44三项主结果和无限次局部重写完整加强保留；原稿的锥化、联合Lipschitz星形实现、一个精确rotation benchmark恢复，R49已证平面连通直接推论收入正文。
+- 固定Borel分割变分原理及正率尺度比较按R10/R49既有方法应用处理，必要背景压缩到附录。特殊golden saddle、其他symbolic benchmark和旧长工具证明保留于原稿附件。
+- 本轮增加论述完整性与已证适用范围，没有新增独立主定理，不按28页、模型数量或稿件生成提高期刊定位。
+- 完成合并接口复核、15条参考文献校订、交叉引用检查和全部28页排版检查。实际保存PDF恢复后，28页文本和逐页渲染与检查过的编译版一致；准确持久身份见[research/R50_STATUS.md](research/R50_STATUS.md)。
 
-## R49恢复索引
+## 稿件与完整对应记录
 
-|文件|version／实际保存字节|SHA-256|
-|---|---|---|
-|P3_R49_Research_Report.md|0／16,963|ea78636ed9bde6712ccfcc8d22ea582179b7fa7ea4b46038d4422dc7ab11da62|
-|P3_R49_Proof_Records.zip|0／12,513|54455477185953782f97afee5f30288c3a39cb2e9682b9afe8ade138430376d8|
+完整英文稿、内容保留/压缩/迁移/舍弃记录及必要证明审查非公开保存。五件均独立新建version 0；恢复以R50_STATUS中实际保存字节、SHA-256、library_file_id及file_id为准。记录包保留原稿43页和R44实际20页原文件副本。
 
-两件按固定身份实际保存后恢复，逐字节一致，ZIP CRC及六项manifest载荷哈希通过。完整内容对照、证明、阅读范围及裁决非公开保存；准确身份见[research/R49_STATUS.md](research/R49_STATUS.md)。最新完整稿仍按[R44_STATUS](research/R44_STATUS.md)恢复，原稿、R16、R40与各轮旧版保留。
+R50取代R44作为最新整合阅读稿，但不表示已增加数学主贡献或通过外部专业审稿。R44与[research/R49_STATUS.md](research/R49_STATUS.md)全部旧裁决继续保留；有效旧结果未收入正文不等于错误。
 
-更高定位仍需要适用于自然非平凡系统类的完整结构主结果及真实文献增量。篇幅恢复、旧工具长证明和直接实现不承担升级判断。
+## 未解决与结束
 
-本次内容核查结束，没有自动下一轮。R45已解有限族不扩大；R31、R19、一般R18/R17、FA2继续暂停。仅P3，无P4/P6正文、多代理、旧A/B/depth/R09、购买、登录、投稿或外部联系。R38无文件，不补造。GitHub仅必要状态与恢复索引。
+R46二维收缩仿射取到命题仍未解决，R48已有记录保留；几何实现不是其答案。R31、R19、一般R18/R17、FA2继续暂停；R45已解有限族不扩大。没有新研究任务或自动下一轮。
+
+仅P3。没有读改P4/P6正文、多代理、旧A/B/depth/R09重启、购买、登录、投稿或外部联系。R38无文件，不索取或补造。GitHub仅必要状态与恢复索引，完整未发表数学非公开。
