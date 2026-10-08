@@ -2,26 +2,26 @@
 
 更新时间：2026-10-08 UTC
 
-## 当前裁决
+## 当前完成状态
 
-R48_COMPLETE / PLANAR_AFFINE_ATTAINMENT_UNRESOLVED / AUXILIARY_LONG_TIME_RANK_LOSS_COUNT_PROVED / SHARED_SAFE_CONTINUATION_CONSTRUCTED / FULL_RANK_ACTUAL_COUNT_OPEN / R44_MANUSCRIPT_RETAINED / NO_AUTOMATIC_RETRY。
+R49_CONTENT_RECONCILIATION_COMPLETE / ORIGINAL_CORE_COVERAGE_RECONFIRMED / OLD_GEOMETRIC_SCOPE_PRESERVED / DIRECT_COROLLARY_RECORDED / NO_NEW_MAIN_RESULT / R44_MANUSCRIPT_RETAINED / NO_AUTOMATIC_RETRY。
 
-- R48 已完成保持 R46 全部原假设的一次集中尝试。二维统一收缩仿射植物在 h_*=0 时是否必有同一固定有限 period 的有限 Borel 零率分割，仍未解决；没有排除全部 periods、全部 Borel 分割的反例。
-- 新增辅助推导控制同一有限多面体反馈的任意长降秩尾部，并将其长期实际输出容量定位到首次降秩以前的满秩存活词。边界、低维真实后继与重复输入标签均纳入，未把一般 Borel 纤维当作多面体。
-- 已实际安装一份全状态安全 Borel 规则，允许含降秩计划在共享状态处更换且保持有限步安全续接。没有保存原计划、阶段或历史。缺的是同一规则在首次降秩以前的满秩实际词次指数界。
-- h_*=0 提供小安全程序覆盖；尚未由它消除长期满秩返回分支。最小覆盖数、有限计划域数与某份反馈的全部实际名字仍严格区分。
-- 相对 R47 有任意长降秩计数和实际共享续接的辅助进展；没有增加 R44 独立主贡献，未生成 R48 TeX/PDF，不提高期刊定位。实际二十页 R44 稿件及全部旧版保留。
-- 启动和保存前 main 与基线 24a79615764a8c6984d64250895077486570aa2c 一致。当前三份状态、README 与适用指令已核；指定 R47 报告和完整记录新恢复并全文读取，字节/SHA、CRC、六项载荷通过。R46 桥证明及 R44 完整必要定义按实际依赖核验，不重复计作新增成果。
+- 用户授权核查原稿为何比后续稿长，并继续研究可恢复内容。本次保持P3现有专业问题，不重启任何暂停命题。
+- 原稿实际保存PDF为43页，R44实际保存后恢复PDF为20页，字号与页边距基准一致。主要页差来自主线重写。R44没有包含原稿每项旧实现，不能称逐项超集。
+- 完整恢复R10报告及原文包，重新核验其覆盖链：固定Borel分割的一般尺度变分公式及正率尺度比较属于已有理论应用，独立新颖性主张已在R10关闭。此前将它称为“尚未充分裁决”的答复已纠正。
+- 原稿必要几何实现与旋转证明按真实范围复核，未认定这些有效旧结果为错误。本次完成旧几何方法与当前结果的一项直接合成，保存完整证明；判为次要实现及直接推论，没有新增独立主定理。
+- R44的有限输入Borel非取到、clopen/Borel取到差别、反复重写加强与旧有界spanning现象继续保留。没有生成R49升级论文TeX/PDF，没有提高期刊定位。
+- R46二维收缩仿射零率取到命题仍未解决。R48的长期降秩计数与共享安全续接记录保留；满秩实际词的统一次指数界仍缺，本次未重启该攻击。
 
-## 新成果恢复
+## R49恢复索引
 
 |文件|version／实际保存字节|SHA-256|
 |---|---|---|
-|P3_R48_Research_Report.md|0／13,145|c225da94e7d65f226656cd8998589f9f012ea3f6c2c37891169f7036763ab7b6|
-|P3_R48_Proof_Records.zip|0／19,189|e2d69d0347280fd90a09d8f92efb999611a3b3d0a053d5cedd0361eb5b9b899d|
+|P3_R49_Research_Report.md|0／16,963|ea78636ed9bde6712ccfcc8d22ea582179b7fa7ea4b46038d4422dc7ab11da62|
+|P3_R49_Proof_Records.zip|0／12,513|54455477185953782f97afee5f30288c3a39cb2e9682b9afe8ade138430376d8|
 
-完整证明、构造尝试、第二遍审查与文献对应非公开保存。两件保存后按固定身份实际恢复，逐字节一致，ZIP CRC及七项载荷哈希通过。准确身份、证明范围和停点见 [R48_STATUS](research/R48_STATUS.md)。旧稿仍按 [R44_STATUS](research/R44_STATUS.md) 恢复，R47 与全部旧记录保留。
+两件按固定身份实际保存后恢复，逐字节一致，ZIP CRC及六项manifest载荷哈希通过。完整内容对照、证明、阅读范围及裁决非公开保存；准确身份见[research/R49_STATUS.md](research/R49_STATUS.md)。最新完整稿仍按[R44_STATUS](research/R44_STATUS.md)恢复，原稿、R16、R40与各轮旧版保留。
 
-更高定位仍缺该有限维类的完整非平凡取到定理或全量词反例，以及自然适用性和真实文献增量。辅助计数不代替主结果。
+更高定位仍需要适用于自然非平凡系统类的完整结构主结果及真实文献增量。篇幅恢复、旧工具长证明和直接实现不承担升级判断。
 
-本轮结束，无自动待办、换题或重复攻击。R45 已解有限族不扩大；R31、R19、一般 R18/R17、FA2 继续暂停。仅 P3，无 P4/P6、多代理、旧 A/B/depth/R09、购买、登录、投稿或外部联系。R38 无文件，不补造。GitHub 仅必要状态与恢复索引。
+本次内容核查结束，没有自动下一轮。R45已解有限族不扩大；R31、R19、一般R18/R17、FA2继续暂停。仅P3，无P4/P6正文、多代理、旧A/B/depth/R09、购买、登录、投稿或外部联系。R38无文件，不补造。GitHub仅必要状态与恢复索引。
