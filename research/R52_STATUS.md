@@ -1,3 +1,65 @@
+# R52 最后英文检查 — 当前 version 1
+
+更新时间：2026-10-09 UTC
+
+用户在R52完成后明确追加最后一次文风检查。核验基线为832702f3815f0df9048719a22a203fd31048d7fa，全文重新读取实际R52 TeX，完成6处局部英文清理。当前稿仍为 **P3_R52_JDE_Style_Reviewed，29页，version 1**。没有新开R53、数学研究或全面数学终审。
+
+删除一句内部贡献审查式自评；改进小标题、含混搭配及整数值下降函数的解释。17项正式陈述、117处显示数学、全部行内数学、标签、两份附录与书目逐字不变，没有删除独立数学内容。初版28处编辑加本次6处，分别保留E与F修改记录，不把数量当作成果。
+
+最终编译无警告。受改动影响的第10、15、16、17、21页均重新渲染查看；其余24页渲染逐像素一致。当前保存PDF为467,428字节，29页，回读文本与逐页渲染和检查过的编译版一致。其他四项更新也已逐字节回读核验。
+
+文风判断：在本次全文范围内，未发现需要继续大改的明显模板化问题。必要量词和限制说明保留；不以文风判断创作来源，不提供AI检测分数或“绝不被怀疑”的保证。没有改变数学结论，没有新增贡献或期刊判断。用户追加检查到此完成，不自动循环。
+
+## 当前恢复身份
+
+以下五件当前version1；五篇JDE阅读对应表未改，仍用下方历史索引的version0。原R52 version0及R51等历史保留，记录包亦包含R52 version0稿件及本次完整差异。
+
+### P3_R52_JDE_Style_Reviewed.tex
+
+- version：1
+- 字节：107050
+- SHA-256：`950be08f0e39b27f7328238452d8d88c616c651853f17bbe221d3d104bb4412c`
+- library_file_id：`libfile_1653b82628d08191b6e22a8b6906bbb9`
+- file_id：`file_00000000ebc4820db2133faacd40400e`
+
+### P3_R52_JDE_Style_Reviewed.pdf
+
+- version：1
+- 字节：467428
+- SHA-256：`a43739130ca5881289a109e288a361a646f346cc32b90bc71cd5c2c31b9cbfac`
+- library_file_id：`libfile_6341be2d9d6081918273c3156671d0f8`
+- file_id：`file_00000000799c81f79ca53dbbd1e506eb`
+
+### P3_R52_Revision_Report.md
+
+- version：1
+- 字节：17338
+- SHA-256：`af74339a4bc1f3d0bc0868da3859ae757382f68330d5ab99c72e29ee1d259070`
+- library_file_id：`libfile_77242e699dd48191a47ebd4818eb4844`
+- file_id：`file_00000000ba1481fda5a4a5d31d5289a7`
+
+### P3_R51_to_R52.diff
+
+- version：1
+- 字节：28715
+- SHA-256：`9c1806b2e7e6e32d3529989d5200d5ee906bdf4e7043349d831d6e41e935922b`
+- library_file_id：`libfile_c44c78a137f08191b841c7ee95a2d490`
+- file_id：`file_00000000703881f78687e98d065d51bf`
+
+### P3_R52_Proof_Records.zip
+
+- version：1
+- 字节：1970516
+- SHA-256：`7e6e5cf08d73bdbbcd58888042fbb9a459eb9bf67baae314cf0adf175aa2886a`
+- library_file_id：`libfile_d9d11874e8e48191bf6bf7e0e8edd680`
+- file_id：`file_000000007b5c81f7b7e2bf9124f76850`
+
+作者身份、期刊材料和已暂停研究的边界不变。仅P3，无多代理、P4/P6、投稿或外部联系。NO_AUTOMATIC_RETRY。
+
+以下保留R52初版完整状态，其version0身份仅用于历史恢复；当前稿以上述version1为准。
+
+---
+
 # R52 STATUS — 五篇 JDE 写法对照与实际编辑修订完成
 
 更新时间：2026-10-09 UTC
