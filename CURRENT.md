@@ -1,3 +1,23 @@
+# CURRENT — R51审查修订完成
+
+更新时间：2026-10-09 UTC
+
+R51_REVIEW_AND_REVISION_COMPLETE / R50_AND_HISTORY_PRESERVED / NO_NEW_MAIN_THEOREM / NO_AUTOMATIC_RETRY。
+
+最新完整阅读稿为 **P3_R51_Reviewed.tex / P3_R51_Reviewed.pdf，29页**。实际保存身份、字节与SHA-256见[research/R51_STATUS.md](research/R51_STATUS.md)。R50仍按原28页版本保留，原稿43页、R44实际20页及旧版不覆盖。
+
+本轮全文检查17项正式结论及关键证明接口，修订后未发现仍未闭合、会阻断投稿的核心问题。实际补足附录A的prefix/Frostman与可测提升转化，修正一处文献对象对应，明确读取秩主元与统一计数定义，改善重复和生硬英文。三项主结果及无限重写加强的假设、结论保持；没有新增独立主定理。
+
+15条引用、45个标签、实际编译及全部29页检查完成；实际保存PDF回读后的全部文本与逐页渲染相同。完整逐项审查、23项定位修改、diff、来源范围和必要证明非公开保存。
+
+当前稿可进入选定期刊的投稿准备；作者须确认署名、单位和适用声明。本轮不选刊、不投稿，不以编译、页数或表达改进认证期刊等级。此结论是本轮审查范围内的判断，不是外部同行评审。
+
+R46、R31、R19、一般R18/R17、FA2继续暂停；R45有限族不扩大。仅P3，无多代理、P4/P6或外部联系。任务完成后不自动循环审查。
+
+以下保留原状态，作为历史记录；当前版本以上述R51为准。
+
+---
+
 # 最新稿检查补充（2026-10-09）
 
 FINAL_MANUSCRIPT_REVIEW_COMPLETE / R50_PRIMARY_28_PAGES / ORIGINAL_AND_ALL_HISTORY_PRESERVED / NO_NEW_MAIN_THEOREM。
